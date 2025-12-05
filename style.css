@@ -340,6 +340,99 @@
 
 }
 
+/* ===== CONTACT SECTION ===== */
+.contact-section {
+    padding: 64px 16px 96px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+/* Cột trái */
+.contact-info {
+    flex: 1;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.contact-info i {
+    width: 30px;
+    display: inline-block;
+}
+
+/* Cột phải (form) */
+.contact-form {
+    flex: 1;
+    max-width: 480px;
+}
+
+.contact-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.contact-input-half {
+    flex: 1;
+}
+
+.contact-input-full {
+    flex: 1;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+
+.contact-send-btn {
+    margin-top: 16px;
+    padding: 10px 24px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    float: right;
+}
+
+.contact-send-btn:hover {
+    background: #ccc;
+    color: #000;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 600px) {
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        margin-top: 24px;
+    }
+
+    .contact-row {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .contact-send-btn {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+
+
 #conten {
 
 }
